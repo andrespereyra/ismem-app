@@ -1,0 +1,92 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Horarios</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label>Ciclo</ion-label>
+        <ion-select [(ngModel)]="ciclo">
+            <ion-option value="2">II ciclo</ion-option>
+            <ion-option value="4">IV ciclo</ion-option>
+            <ion-option value="6">VI ciclo</ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-list>
+
+        <h2 ion-item>
+            <strong>
+                LUNES
+            </strong>
+        </h2>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            18:00-20:00 Ingles
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            20:00-22:00 Diseño Web
+        </button>
+
+        <button ion-item>
+            <strong>
+                MARTES
+            </strong>
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            18:00-20:00 Ingles
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            20:00-22:00 Diseño Web
+        </button>
+
+        <button ion-item>
+            <strong>
+                MIERCOLES
+            </strong>
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            18:00-20:00 Aplicativo movil
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            20:00-22:00 Gestion web
+        </button>
+
+        <button ion-item>
+            <strong>
+                JUEVES
+            </strong>
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            18:00-20:00 Investigacion cientifica
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            20:00-22:00 Lesgilacion
+        </button>
+
+        <button ion-item>
+            <strong>
+                VIERNES
+            </strong>
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            18:00-20:00 Diseño grafico
+        </button>
+        <button ion-item>
+            <ion-icon name="timer" item-start></ion-icon>
+            20:00-22:00 Implementacion web
+        </button>
+
+    </ion-list>
+</ion-content>

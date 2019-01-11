@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center>
+
+  <ion-img width="330" height="120" src='http://ismem.edu.pe/wp-content/uploads/2017/09/LOGOISMEMWEB-1024x336.png'></ion-img>
+
+  
+  <button ion-button icon-start (click)="irHorario()">
+  <ion-icon name="calendar"></ion-icon>
+  	Horario
+</button>
+<br>
+
+
+<button ion-button icon-start (click)="irNotas()">
+<ion-icon name="browsers"></ion-icon>
+Notas
+</button>
+<br>
+
+
+
+<button ion-button icon-start (click)="irAlumnos()">
+<ion-icon name="contacts"></ion-icon>
+Alumnos
+</button>
+
+</ion-content>
