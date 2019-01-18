@@ -15,6 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AlumnosPage {
 
+  ciclo : number;
   ciclos : any;
   alumnos : any;
 
